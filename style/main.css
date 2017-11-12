@@ -1,3 +1,11 @@
 .navbar {
 	min-height: auto;
 }
+
+.navbar-default {
+	background-color: #e95420;
+}
+
+ul.nav > li > a {
+	color: white;
+}
