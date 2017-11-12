@@ -33,4 +33,4 @@ function  showNav(menus, lang) {
 	return nav += "</ul></div></nav>";
 }
 
-document.write(showNav(config.menus[0].list, config.lang));
+document.write(showNav(config.menus, config.lang));
