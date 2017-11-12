@@ -1,6 +1,6 @@
 var config = {
 	//'webPath':			'file:///home/ipad/code/git/demo/',
-	'webPath':			'https://cbuntu.github.io/'
+	'webPath':			'https://cbuntu.github.io/',
 	'lang':				'cName',
 	'menus': [
 		{
