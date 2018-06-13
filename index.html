@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>demo</title>
-		<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="style/main.css" rel="stylesheet" />
-	</head>
-	<body>
-		<script src="lib/jquery/jquery-3.2.1.js"></script>
-		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/home.js"></script>
-		<script src="js/nav.js"></script>
-		<video src="http://abc-1254400168.cossh.myqcloud.com/movie.ogg" controls="controls"></video>
-	</body>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue 测试实例 - 菜鸟教程(runoob.com)</title>
+<script src="https://cdn.bootcss.com/vue/2.2.2/vue.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js!'
+  }
+})
+</script>
+</body>
 </html>
